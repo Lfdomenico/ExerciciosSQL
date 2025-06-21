@@ -1,0 +1,99 @@
+1. 
+	
+SELECT 
+    *
+FROM
+    CLIENTES;
+
+2. 
+
+SELECT 
+    nome, email
+FROM
+    CLIENTES;
+
+3. 
+
+SELECT 
+    *
+FROM
+    PRODUTOS;
+
+4. 
+
+SELECT 
+    nome_produto, preco
+FROM
+    PRODUTOS;
+
+5. 
+
+SELECT 
+    *
+FROM
+    PRODUTOS
+WHERE
+    preco > 350.00;
+
+6. 
+
+SELECT 
+    *
+FROM
+    CLIENTES
+WHERE
+    cidade = 'São Paulo';
+
+## OU ##
+
+SELECT 
+    *
+FROM
+    CLIENTES
+WHERE
+    cidade LIKE 'São Paulo';
+
+7. 
+
+SELECT 
+    *
+FROM
+    Pedidos
+WHERE
+    data_pedido > '2024-04-11';
+
+8.
+
+SELECT 
+    *
+FROM
+    PRODUTOS
+WHERE
+    categoria = 'Eletrônicos'
+    
+    ## OU ##
+    
+SELECT 
+	* 
+FROM 
+	PRODUTOS 
+WHERE 
+	categoria LIKE 'Eletrônicos' ;
+
+9. 
+
+SELECT 
+    *
+FROM
+    CLIENTES
+WHERE
+    nome LIKE 'A%' OR nome LIKE 'B%';
+
+10. 
+
+SELECT 
+    *
+FROM
+    PRODUTOS
+WHERE
+    estoque < 75;

@@ -1,0 +1,22 @@
+Nível Básico (Consultas Simples e Filtragem)
+
+1. Selecione todos os clientes.
+
+2. Selecione nomes e emails dos clientes.
+
+3. Selecione todos os produtos:
+
+4. Selecione nomes e preços dos produtos.
+
+5. Selecione todos os produtos com preço maior que 350.
+
+6. Selecione todos os clientes da cidade de 'São Paulo'.
+
+7. Selecione todos os pedidos feitos após '2024-04-11'.
+
+8. Selecione todos os produtos na categoria 'Eletrônicos'.
+
+9. Selecione todos os clientes cujo nome começa com a letra 'A' ou com a letra 'B'.
+
+10. Selecione todos os produtos com estoque menor que 75.
+

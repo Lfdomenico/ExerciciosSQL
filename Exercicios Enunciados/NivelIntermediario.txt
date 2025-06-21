@@ -1,0 +1,22 @@
+Nível Intermediário (Ordenação, Limitação, Agregação Simples)
+
+
+11. Selecione todos os clientes e ordene-os pelo nome em ordem alfabética de trás para frente.
+
+12. Selecione todos os produtos e ordene-os pelo preco do maior para o menor.
+
+13. Selecione os 5 produtos com o maior preco.
+
+14. Selecione os 3 clientes mais recentemente cadastrados (data_cadastro).
+
+15. Exiba o número total de clientes na tabela Clientes.
+
+16. Exiba o número total de produtos na tabela Produtos.
+
+17. Calcule a soma de todos os valor_total da tabela Pedidos.
+
+18. Calcule a média do preco de todos os produtos.
+
+19. Encontre o preco máximo entre todos os produtos.
+
+20. Encontre o preco mínimo entre todos os produtos.

@@ -1,0 +1,82 @@
+11.
+
+SELECT 
+    *
+FROM
+    CLIENTES
+ORDER BY nome DESC;
+
+12. 
+
+SELECT 
+    *
+FROM
+    PRODUTOS
+ORDER BY preco ASC;
+
+13.
+
+SELECT 
+    *
+FROM
+    PRODUTOS
+ORDER BY preco DESC
+LIMIT 5;
+
+14.
+
+SELECT 
+    *
+FROM
+    CLIENTES
+ORDER BY data_cadastro DESC
+LIMIT 3;
+
+15.
+
+SELECT 
+    COUNT(*)
+FROM
+    CLIENTES;
+
+16.
+
+SELECT 
+    COUNT(*)
+FROM
+    PRODUTOS;
+
+17.
+
+SELECT 
+    SUM(valor_total)
+FROM
+    PEDIDOS;
+    
+18.
+
+SELECT 
+    AVG(preco)
+FROM
+    PRODUTOS;
+
+19.
+
+SELECT 
+    MAX(preco)
+FROM
+    PRODUTOS;
+
+20.
+
+SELECT 
+    MIN(preco)
+FROM
+    PRODUTOS;
+
+
+
+
+
+
+

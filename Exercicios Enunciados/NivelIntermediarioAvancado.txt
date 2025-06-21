@@ -1,0 +1,21 @@
+Nível Intermediário-Avançado (Agregação com GROUP BY, HAVING)
+
+21. Conte quantos clientes existem em cada estado.
+
+22. Conte quantos produtos existem em cada categoria.
+
+23. Calcule o valor_total de pedidos para cada cliente_id.
+
+24. Calcule a média do preco para cada categoria de produto.
+
+25. Liste os cliente_id que possuem mais de 1 pedido, juntamente com a contagem de seus pedidos.
+
+26. Liste as categorias que possuem mais de 10 produtos, juntamente com a contagem de produtos.
+
+27. Calcule a soma do estoque para cada categoria de produto.
+
+28. Calcule o valor_total de vendas agrupado por data_pedido.
+
+29. Selecione todos os clientes que moram em 'Rio de Janeiro' OU 'Belo Horizonte'.
+
+30. Selecione todos os produtos cujo preco esteja entre 20 e 100 (inclusive).
