@@ -25,3 +25,13 @@ Esperoe que este material seja uma ferramenta útil em sua jornada de aprendizad
 Bons estudos a todos!
 
 
+# Principais Comandos
+
+| Comando SQL      | Descrição                                         | Exemplo de Uso                                  |
+| :--------------- | :------------------------------------------------ | :---------------------------------------------- |
+| **`CREATE DATABASE`** | Utilizado para **criar um novo banco de dados**.  | `CREATE DATABASE Projeto;`                   |
+| **`USE`** | Seleciona o banco de dados para uso.              | `USE Projeto;`                               |
+| **`CREATE TABLE`** | Utilizado para **criar uma nova tabela** dentro de um banco de dados. Define as colunas e seus tipos. | `CREATE TABLE Produto (`<br>`  id INT PRIMARY KEY AUTO_INCREMENT,`<br>`  nome VARCHAR(100) NOT NULL,`<br>`  quantidade VARCHAR(100)`<br>`);` |
+| **`SELECT`** | O comando utilizado para **recuperar dados** de uma ou mais tabelas. | `SELECT nome, quantidade FROM Produto;` (Seleciona colunas específicas da tabela) <br> `SELECT * FROM Produtos;` (Seleciona todas as colunas da tabela) |
+
+
