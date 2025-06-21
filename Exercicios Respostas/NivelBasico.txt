@@ -69,7 +69,7 @@ SELECT
 FROM
     PRODUTOS
 WHERE
-    categoria = 'Eletrônicos'
+    categoria = 'Eletrônicos';
     
     ## OU ##
     
