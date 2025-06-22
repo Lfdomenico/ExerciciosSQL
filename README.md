@@ -31,7 +31,20 @@ Bons estudos a todos!
 | :--------------- | :------------------------------------------------ | :---------------------------------------------- |
 | **`CREATE DATABASE`** | Utilizado para **criar um novo banco de dados**.  | `CREATE DATABASE Projeto;`                   |
 | **`USE`** | Seleciona o banco de dados para uso.              | `USE Projeto;`                               |
-| **`CREATE TABLE`** | Utilizado para **criar uma nova tabela** dentro de um banco de dados. Define as colunas e seus tipos. | `CREATE TABLE Produto (`<br>`  id INT PRIMARY KEY AUTO_INCREMENT,`<br>`  nome VARCHAR(100) NOT NULL,`<br>`  quantidade VARCHAR(100)`<br>`);` |
+| **`CREATE TABLE`** | Utilizado para **criar uma nova tabela** dentro de um banco de dados. Define as colunas e seus tipos. | `CREATE TABLE Produto (`<br>`  id INT PRIMARY KEY AUTO_INCREMENT,`<br>`  nome VARCHAR(100) NOT NULL,`<br>` preco DECIMAL(10,2) NOT NULL,`<br>`  quantidade VARCHAR(100)`<br>`);` |
 | **`SELECT`** | O comando utilizado para **recuperar dados** de uma ou mais tabelas. | `SELECT nome, quantidade FROM Produto;` (Seleciona colunas específicas da tabela) <br> `SELECT * FROM Produtos;` (Seleciona todas as colunas da tabela) |
+| **`FROM`** | Especifica a **tabela** da qual os dados serão recuperados. Usado em conjunto com `SELECT`. | `SELECT nome FROM Produto;`                    |
+| **`WHERE`** | Filtra os registros com base em uma **condição específica**. | `SELECT * FROM Produts WHERE preco > 50.00;`   |
+| **`ALTER TABLE`** | Utilizado para **alterar dados de uma tabela existente**.  | `ALTER TABLE Produto ADD COLUMN data_cadastro DATE;`                   |
+| **`UPDATE`** | Utilizado  para **atualizar dados de uma tabela existente**.  | `UPDATE Produto SET quantidade = 5 WHERE id = 5;`                   |
+| **`INSERT INTO`** | Utilizado para **adicionar novas linhas (registros)** a uma tabela. | `INSERT INTO Produto (nome, preco) VALUES ('Televisão', 3.500);` |
+| **`SELECT DISTINCT`** | **Retorna apenas dados distintos.** Não retorna valores duplicados, apenas únicos. | `SELECT DISTINCT nome FROM Produto;` |
+| **`AND`** | Combina condições para a consulta. **Todas as condições devem ser verdadeiras para a consulta ser feita.** | `SELECT * FROM Produto WHERE preco > 500 AND quantidade < 10;` |
+| **`OR`** | Ao menos **uma das condições deve ser verdadeira para a consulta ser feita.** | `SELECT * FROM Produto WHERE nome = Televisão" OR nome = "Computador";` |
+| **`BETWEEN`** | Retorna os dados contemplados **dentro do intervalo definido.** | `SELECT * FROM Produto WHERE preco BETWEEN 350 AND 450;` |
+| **`IS NULL`** | Retorna apenas linhas com **valores vazios (NULL)** | `SELECT * FROM Produto WHERE quantidade IS NULL;` |
+| **`IS NOT NULL`** | Retorna linhas com **valores não vazios (NULL)** | `SELECT * FROM Produto WHERE quantidade IS NOT NULL;` |
+
+
 
 
