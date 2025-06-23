@@ -44,6 +44,9 @@ Bons estudos a todos!
 | **`BETWEEN`** | Retorna os dados contemplados **dentro do intervalo definido.** | `SELECT * FROM Produto WHERE preco BETWEEN 350 AND 450;` |
 | **`IS NULL`** | Retorna apenas linhas com **valores vazios (NULL)** | `SELECT * FROM Produto WHERE quantidade IS NULL;` |
 | **`IS NOT NULL`** | Retorna linhas com **valores não vazios (NULL)** | `SELECT * FROM Produto WHERE quantidade IS NOT NULL;` |
+| **`ORDER BY`** | Retorna resultados da consulta de **forma ordenada, de acordo com o atributo**. <br> A ordem padrão é crescente **(ASC).** Para que seja decrescente, deve-se digitar **DSC** | `SELECT * FROM Produto ORDER BY nome;` |
+| **`COUNT`** | Informa a **quantidade total de um atributo** especificado na tabela. | `SELECT COUNT(*) FROM Produto;` |
+| **`SUM`** | Retorna a **soma total** de uma coluna numérica.| `SELECT SUM(preco) FROM Produto;` |
 
 
 
